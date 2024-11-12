@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0D3257E32CE392CC00FA942B /* stresswatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0D3257E22CE392CC00FA942B /* stresswatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0D3257BF2CE3928E00FA942B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +25,51 @@
 			remoteGlobalIDString = 0D3257AB2CE3928B00FA942B;
 			remoteInfo = stress;
 		};
+		0D3257E42CE392CC00FA942B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D3257A42CE3928B00FA942B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3257E12CE392CC00FA942B;
+			remoteInfo = "stresswatch Watch App";
+		};
+		0D3257F52CE392D300FA942B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D3257A42CE3928B00FA942B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3257E12CE392CC00FA942B;
+			remoteInfo = "stresswatch Watch App";
+		};
+		0D3257FF2CE392D300FA942B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D3257A42CE3928B00FA942B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3257E12CE392CC00FA942B;
+			remoteInfo = "stresswatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D3258092CE392D300FA942B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0D3257E32CE392CC00FA942B /* stresswatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0D3257AC2CE3928B00FA942B /* stress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3257BE2CE3928E00FA942B /* stressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3257C82CE3928E00FA942B /* stressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3257DD2CE392CC00FA942B /* stresswatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stresswatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3257E22CE392CC00FA942B /* stresswatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stresswatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3257F42CE392D300FA942B /* stresswatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stresswatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3257FE2CE392D300FA942B /* stresswatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stresswatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +86,21 @@
 		0D3257CB2CE3928E00FA942B /* stressUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = stressUITests;
+			sourceTree = "<group>";
+		};
+		0D3257E62CE392CC00FA942B /* stresswatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "stresswatch Watch App";
+			sourceTree = "<group>";
+		};
+		0D3257F72CE392D300FA942B /* stresswatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "stresswatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0D3258012CE392D300FA942B /* stresswatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "stresswatch Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +127,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0D3257DF2CE392CC00FA942B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3257F12CE392D300FA942B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3257FB2CE392D300FA942B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +157,9 @@
 				0D3257AE2CE3928B00FA942B /* stress */,
 				0D3257C12CE3928E00FA942B /* stressTests */,
 				0D3257CB2CE3928E00FA942B /* stressUITests */,
+				0D3257E62CE392CC00FA942B /* stresswatch Watch App */,
+				0D3257F72CE392D300FA942B /* stresswatch Watch AppTests */,
+				0D3258012CE392D300FA942B /* stresswatch Watch AppUITests */,
 				0D3257AD2CE3928B00FA942B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +170,10 @@
 				0D3257AC2CE3928B00FA942B /* stress.app */,
 				0D3257BE2CE3928E00FA942B /* stressTests.xctest */,
 				0D3257C82CE3928E00FA942B /* stressUITests.xctest */,
+				0D3257DD2CE392CC00FA942B /* stresswatch.app */,
+				0D3257E22CE392CC00FA942B /* stresswatch Watch App.app */,
+				0D3257F42CE392D300FA942B /* stresswatch Watch AppTests.xctest */,
+				0D3257FE2CE392D300FA942B /* stresswatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +249,93 @@
 			productReference = 0D3257C82CE3928E00FA942B /* stressUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0D3257DC2CE392CC00FA942B /* stresswatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D32580A2CE392D300FA942B /* Build configuration list for PBXNativeTarget "stresswatch" */;
+			buildPhases = (
+				0D3257DB2CE392CC00FA942B /* Resources */,
+				0D3258092CE392D300FA942B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3257E52CE392CC00FA942B /* PBXTargetDependency */,
+			);
+			name = stresswatch;
+			packageProductDependencies = (
+			);
+			productName = stresswatch;
+			productReference = 0D3257DD2CE392CC00FA942B /* stresswatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0D3257E12CE392CC00FA942B /* stresswatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3258062CE392D300FA942B /* Build configuration list for PBXNativeTarget "stresswatch Watch App" */;
+			buildPhases = (
+				0D3257DE2CE392CC00FA942B /* Sources */,
+				0D3257DF2CE392CC00FA942B /* Frameworks */,
+				0D3257E02CE392CC00FA942B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0D3257E62CE392CC00FA942B /* stresswatch Watch App */,
+			);
+			name = "stresswatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "stresswatch Watch App";
+			productReference = 0D3257E22CE392CC00FA942B /* stresswatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D3257F32CE392D300FA942B /* stresswatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D32580D2CE392D300FA942B /* Build configuration list for PBXNativeTarget "stresswatch Watch AppTests" */;
+			buildPhases = (
+				0D3257F02CE392D300FA942B /* Sources */,
+				0D3257F12CE392D300FA942B /* Frameworks */,
+				0D3257F22CE392D300FA942B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3257F62CE392D300FA942B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0D3257F72CE392D300FA942B /* stresswatch Watch AppTests */,
+			);
+			name = "stresswatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "stresswatch Watch AppTests";
+			productReference = 0D3257F42CE392D300FA942B /* stresswatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D3257FD2CE392D300FA942B /* stresswatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3258102CE392D300FA942B /* Build configuration list for PBXNativeTarget "stresswatch Watch AppUITests" */;
+			buildPhases = (
+				0D3257FA2CE392D300FA942B /* Sources */,
+				0D3257FB2CE392D300FA942B /* Frameworks */,
+				0D3257FC2CE392D300FA942B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3258002CE392D300FA942B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0D3258012CE392D300FA942B /* stresswatch Watch AppUITests */,
+			);
+			name = "stresswatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "stresswatch Watch AppUITests";
+			productReference = 0D3257FE2CE392D300FA942B /* stresswatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +357,20 @@
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 0D3257AB2CE3928B00FA942B;
 					};
+					0D3257DC2CE392CC00FA942B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					0D3257E12CE392CC00FA942B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					0D3257F32CE392D300FA942B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0D3257E12CE392CC00FA942B;
+					};
+					0D3257FD2CE392D300FA942B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0D3257E12CE392CC00FA942B;
+					};
 				};
 			};
 			buildConfigurationList = 0D3257A72CE3928B00FA942B /* Build configuration list for PBXProject "stress" */;
@@ -203,6 +390,10 @@
 				0D3257AB2CE3928B00FA942B /* stress */,
 				0D3257BD2CE3928E00FA942B /* stressTests */,
 				0D3257C72CE3928E00FA942B /* stressUITests */,
+				0D3257DC2CE392CC00FA942B /* stresswatch */,
+				0D3257E12CE392CC00FA942B /* stresswatch Watch App */,
+				0D3257F32CE392D300FA942B /* stresswatch Watch AppTests */,
+				0D3257FD2CE392D300FA942B /* stresswatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +414,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0D3257C62CE3928E00FA942B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3257DB2CE392CC00FA942B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3257E02CE392CC00FA942B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3257F22CE392D300FA942B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3257FC2CE392D300FA942B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +472,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0D3257DE2CE392CC00FA942B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3257F02CE392D300FA942B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3257FA2CE392D300FA942B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +505,21 @@
 			isa = PBXTargetDependency;
 			target = 0D3257AB2CE3928B00FA942B /* stress */;
 			targetProxy = 0D3257C92CE3928E00FA942B /* PBXContainerItemProxy */;
+		};
+		0D3257E52CE392CC00FA942B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D3257E12CE392CC00FA942B /* stresswatch Watch App */;
+			targetProxy = 0D3257E42CE392CC00FA942B /* PBXContainerItemProxy */;
+		};
+		0D3257F62CE392D300FA942B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D3257E12CE392CC00FA942B /* stresswatch Watch App */;
+			targetProxy = 0D3257F52CE392D300FA942B /* PBXContainerItemProxy */;
+		};
+		0D3258002CE392D300FA942B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D3257E12CE392CC00FA942B /* stresswatch Watch App */;
+			targetProxy = 0D3257FF2CE392D300FA942B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -518,6 +773,172 @@
 			};
 			name = Release;
 		};
+		0D3258072CE392D300FA942B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stresswatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FNFZNA7FU7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = stresswatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.stresswatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		0D3258082CE392D300FA942B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stresswatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = FNFZNA7FU7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = stresswatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.stresswatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		0D32580B2CE392D300FA942B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNFZNA7FU7;
+				INFOPLIST_KEY_CFBundleDisplayName = stresswatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.stresswatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0D32580C2CE392D300FA942B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNFZNA7FU7;
+				INFOPLIST_KEY_CFBundleDisplayName = stresswatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = temp.stresswatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0D32580E2CE392D300FA942B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNFZNA7FU7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.stresswatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stresswatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stresswatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		0D32580F2CE392D300FA942B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNFZNA7FU7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.stresswatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stresswatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stresswatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		0D3258112CE392D300FA942B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNFZNA7FU7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.stresswatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "stresswatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		0D3258122CE392D300FA942B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FNFZNA7FU7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "temp.stresswatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "stresswatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +974,42 @@
 			buildConfigurations = (
 				0D3257D92CE3928E00FA942B /* Debug */,
 				0D3257DA2CE3928E00FA942B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3258062CE392D300FA942B /* Build configuration list for PBXNativeTarget "stresswatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3258072CE392D300FA942B /* Debug */,
+				0D3258082CE392D300FA942B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D32580A2CE392D300FA942B /* Build configuration list for PBXNativeTarget "stresswatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D32580B2CE392D300FA942B /* Debug */,
+				0D32580C2CE392D300FA942B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D32580D2CE392D300FA942B /* Build configuration list for PBXNativeTarget "stresswatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D32580E2CE392D300FA942B /* Debug */,
+				0D32580F2CE392D300FA942B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3258102CE392D300FA942B /* Build configuration list for PBXNativeTarget "stresswatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3258112CE392D300FA942B /* Debug */,
+				0D3258122CE392D300FA942B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
