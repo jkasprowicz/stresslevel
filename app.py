@@ -16,6 +16,8 @@ def predict():
 
     # Create feature vector for prediction
     features = [[mean_hr, mean_hrv_sdnn, mean_rhr, total_sleep_hours]]
+
+    print(features)
     
     # Predict stress level (model output)
     prediction = model.predict(features)
