@@ -10,3 +10,7 @@ REST API: Fetches predicted stress level from a remote server.
 Timer: Periodically sends health data to the prediction model for real-time updates.
 
 For purpose of testing, fake data was send it from SwiftUI code to the REST API, for inference of the model, the model was a random forest model trained with apple watch data, with 3 classes of classification, low, medium and high level of stress. 
+
+![Distribuição tamanho genes](images/figure1.png)
+![Distribuição GC pelo genoma](images/figure2.png)
+
