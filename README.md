@@ -12,9 +12,10 @@ Apple Watch Interface
 ---
 Below are screenshots of the app interface on the Apple Watch:
 
-![interface](images/image1.png)
-![interface](images/image2.png)
-
+<div style="display: flex; justify-content: space-between;">
+  <img src="images/image1.png" alt="Apple Watch Main Screen" width="45%" />
+  <img src="images/image2.png" alt="Apple Watch Stress Level Screen" width="45%" />
+</div>
 
 The dataset for the app was sourced from an Apple Watch Series 6. Key steps in the development process include:
 ---
